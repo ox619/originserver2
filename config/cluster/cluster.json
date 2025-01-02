@@ -1,0 +1,14 @@
+{
+  "NodeList": [
+    {
+        "NodeId": "originserver2",
+        "Private": false,
+        "ListenAddr": "0.0.0.0:11001",
+        "MaxRpcParamLen": 819200,
+        "remark": "//以_打头的，表示只在本机进程，不对整个子网开发",
+        "ServiceList": ["DBService", "_HttpService", "_AuthService","_LoginService", "GateService", "CenterService", "GS1:GameService"],
+        "DiscoveryService": []
+    }
+  ]
+}
+
